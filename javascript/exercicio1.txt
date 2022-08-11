@@ -1,0 +1,9 @@
+Meu portfólio: https://luizeduardodev.netlify.app/
+
+Na versão mobile, aparece um icone de hamburger e ao clicar sobre ele, o menu do site aparece.
+O botão tem como finalidade mostrar o menu de links que fica escondedido na versão mobile do site. Ao realizar o toque sobre o botão, abre o menu com os links do site.
+
+https://api-cep-javascript-puro.netlify.app/
+
+No campo de formulario, ao digitar um cep e clicar fora do campo, o javascript faz uma requisição a uma API de cep e retorna os dados nos campos do form.
+O formulário tem como finalidade retornar os dados de um CEP na tela.
