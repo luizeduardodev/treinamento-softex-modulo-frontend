@@ -1,0 +1,3 @@
+Já utilizo o vscode para programar, tanto em Javascript como em outras linguagens. Então ele já está totalmente configurado com extensões que auxiliam não só o desenvolvimento em Javascript mas também em html, css, sass e até mesmo o framework Vue.js.
+
+Escolhi o vscode por ser um editor bastante completo, personalizável e fácil de utilizar.
