@@ -5,20 +5,19 @@
 // Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilhe o link desse projeto no campo ao lado para que outros desenvolvedores possam analisá-lo.
 
 //1° Código;
+const firstNote = parseFloat(prompt("Informe a primeira nota: "));
+const secondNote = parseFloat(prompt("Informe a segunda nota: "));
+const thirdNote = parseFloat(prompt("Informe a terceira nota: "));
 
-// const firstNote = parseFloat(prompt("Informe a primeira nota: "));
-// const secondNote = parseFloat(prompt("Informe a segunda nota: "));
-// const thirdNote = parseFloat(prompt("Informe a terceira nota: "));
+const result = (firstNote, secondNote, thirdNote) => {
+    const average = (firstNote + secondNote + thirdNote) / 3;
+    const studentResult = average >= 7 ? `Aprovado` : `Reprovado`;
 
-// const result = (firstNote, secondNote, thirdNote) => {
-//     const average = (firstNote + secondNote + thirdNote) / 3;
-//     const studentResult = average >= 7 ? `Aprovado` : `Reprovado`;
+    return studentResult;
+};
 
-//     return studentResult;
-// };
-
-// const finalResult = result(firstNote, secondNote, thirdNote);
-// console.log(finalResult);
+const finalResult = result(firstNote, secondNote, thirdNote);
+console.log(finalResult);
 
 // O segundo código é um programa que o aluno deve escrever duas notas e o retorno informa a nota mínima que ele deve tirar na próxima prova para poder passar com nota sete.
 
