@@ -1,0 +1,22 @@
+{
+  "name": "treinamento-softex-modulo-frontend",
+  "version": "1.0.0",
+  "description": "Pasta com exercicios do treinamento da softex - modulo frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizeduardodev/treinamento-softex-modulo-frontend.git"
+  },
+  "author": "Luiz Eduardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luizeduardodev/treinamento-softex-modulo-frontend/issues"
+  },
+  "homepage": "https://github.com/luizeduardodev/treinamento-softex-modulo-frontend#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
