@@ -1,9 +1,0 @@
-Cite três exemplos de dados utilizados no seu cotidiano (exemplo: termômetro) e pesquise três outros exemplos em que dados na internet são usados (exemplo: criação de um usuário em rede social digital).
-
-Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e compartilhe o link no campo ao lado para que outros desenvolvedores possam analisá-lo.
-
-RESPOSTA:
-
-Cotidiano: Saldo no banco, 370 seguidores no instagram, horário de início da aula da Faculdade;
-
-Internet: Criação de uma conta no Instagram, cadastro de um cartão de crédito, cadastro de um endereço em um site. 
