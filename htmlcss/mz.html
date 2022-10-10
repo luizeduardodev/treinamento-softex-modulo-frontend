@@ -6,12 +6,15 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    </head>
 
-    <body style="margin: 0; padding: 0; box-sizing: border-box">
-        <div
-            class="wrapper"
-            style="
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            .wrapper {
                 width: 100%;
                 max-width: 980px;
                 margin: auto;
@@ -19,34 +22,82 @@
                 align-items: center;
                 flex-direction: column;
                 justify-content: center;
-            "
-        >
-            <header
-                id="header"
-                style="
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-around;
-                    padding: 10px;
-                "
-            >
-                <a href="#" style="width: 30%">
+            }
+
+            .wrapper #header {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                padding: 10px;
+            }
+
+            .wrapper #header .logo {
+                width: 30%;
+            }
+
+            .wrapper #header .logo img {
+                max-width: 100%;
+                width: 50%;
+            }
+
+            .wrapper #header .nav ul {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                list-style: none;
+            }
+
+            hr {
+                width: 100%;
+                padding: 1px;
+                background-color: #000;
+            }
+
+            .wrapper #home-section {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+                height: calc(100vh - 140px);
+            }
+
+            .wrapper #home-section .link {
+                margin-bottom: 20px;
+            }
+
+            .wrapper #home-section .container-images {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+
+            .wrapper #home-section .container-images .img {
+                width: 25%;
+            }
+
+            .wrapper #home-section .container-images .img img {
+                width: 100%;
+                max-width: 100%;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <header id="header">
+                <a href="#" class="logo">
                     <img
                         src="https://esigportal2.recife.pe.gov.br/portal/sharing/rest/content/items/0f015a09876847ce82ba672cc9952fa7/resources/inConfig/8273590207298072.png"
                         alt="Logo Marco Zero"
-                        style="width: 50%; max-width: 100%"
                     />
                 </a>
 
-                <nav>
-                    <ul
-                        style="
-                            display: flex;
-                            align-items: center;
-                            gap: 10px;
-                            list-style: none;
-                        "
-                    >
+                <nav class="nav">
+                    <ul>
                         <li>Home</li>
                         <li>Locais</li>
                         <li>Sobre o marco zero</li>
@@ -54,58 +105,51 @@
                 </nav>
             </header>
 
-            <hr style="width: 100%; padding: 1px; background-color: #000;">
+            <hr />
 
             <main id="main">
-                <section id="home-section" style="width: 100%; display: flex; align-items: center; flex-direction: column; justify-content: center; height: calc(100vh - 140px);">
+                <section id="home-section">
                     <h1>Confira algumas imagens sobre o Marco Zero!</h1>
 
-                    <a href="link-one.html" style="margin-bottom: 20px;">Ir para o link 2</a>
+                    <a href="link-one.html" class="link">Ir para o link 2</a>
 
-                    <div class="container-images" style="width: 100%; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 10px;">
-                        <div style="width: 25%;">
+                    <div class="container-images">
+                        <div class="img">
                             <img
                                 src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/00/2e/31/recife.jpg?w=1200&h=-1&s=1"
                                 alt="Imagem 1"
-                                style="width: 100%; max-width: 100%"
                             />
                         </div>
-
-                        <div style="width: 25%;">
+                        <div class="img">
                             <img
                                 src="https://meulugar.quintoandar.com.br/wp-content/uploads/2022/02/Praca-do-Maraco-Zero-Rosa-dos-Ventos-Abre.jpg"
                                 alt="Imagem 2"
-                                style="width: 100%; max-width: 100%"
                             />
                         </div>
-
-                        <div style="width: 25%;">
+                        <div class="img">
                             <img
                                 src="https://upload.wikimedia.org/wikipedia/commons/1/13/Ground_Zero_-_Recife_-_Pernambuco_-_Brazil%283%29.jpg"
                                 alt="Imagem 3"
-                                style="width: 100%; max-width: 100%"
+                            />
+                        </div>
+                        <div class="img">
+                            <img
+                                src="https://www.guiadasemana.com.br/contentFiles/system/pictures/2013/5/75606/original/article.jpg"
+                                alt="Imagem 4"
                             />
                         </div>
 
-                        <div style="width: 25%;">
+                        <div class="img">
                             <img
                                 src="https://www.guiadasemana.com.br/contentFiles/system/pictures/2013/5/75606/original/article.jpg"
                                 alt="Imagem 4"
-                                style="width: 100%; max-width: 100%"
                             />
                         </div>
-                        <div style="width: 25%;">
+
+                        <div class="img">
                             <img
                                 src="https://www.guiadasemana.com.br/contentFiles/system/pictures/2013/5/75606/original/article.jpg"
                                 alt="Imagem 4"
-                                style="width: 100%; max-width: 100%"
-                            />
-                        </div>
-                        <div style="width: 25%;">
-                            <img
-                                src="https://www.guiadasemana.com.br/contentFiles/system/pictures/2013/5/75606/original/article.jpg"
-                                alt="Imagem 4"
-                                style="width: 100%; max-width: 100%"
                             />
                         </div>
                     </div>
