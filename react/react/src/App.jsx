@@ -5,7 +5,12 @@ import "./App.css";
 const App = () => {
     return (
         <div className="App">
-            <Header />
+            <Header
+                name="Luiz Eduardo"
+                itemUm="Home"
+                itemDois="Sobre"
+                itemTres="Contato"
+            />
         </div>
     );
 };
