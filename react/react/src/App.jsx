@@ -1,16 +1,25 @@
-//No projeto base react, criado no Peer Tutoring 1, crie um botão que aumente o valor de uma propriedade de um componente react usando hooks.
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import { useState } from "react";
+import Header from "./components/Header/Header";
+
+import Home from "./Pages/Home/Home";
+import About from "./Pages/About/About";
+import Contact from "./Pages/Contact/Contact";
 
 import "./App.css";
 
 const App = () => {
-    const [count, setCount] = useState(0);
-
     return (
         <div className="App">
-            <button onClick={() => setCount(count + 1)}>Aumentar</button>
-            <p>{count}</p>
+            <Router>
+                <Header />
+
+                <Routes>
+                    <Route path="/" element={<Home />}></Route>
+                    <Route path="/about" element={<About />}></Route>
+                    <Route path="/contact" element={<Contact />}></Route>
+                </Routes>
+            </Router>
         </div>
     );
 };
