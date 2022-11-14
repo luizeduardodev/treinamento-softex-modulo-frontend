@@ -1,14 +1,20 @@
+import { Link } from "react-router-dom";
+
 import styles from "./Header.module.css";
 
-const Header = ({ name, itemUm, itemDois, itemTres }) => {
+const Header = () => {
     return (
         <nav className={styles.nav_container}>
-            <h1>{name}</h1>
-
             <ul className={styles.ul_container}>
-                <li className={styles.item}>{itemUm}</li>
-                <li className={styles.item}>{itemDois}</li>
-                <li className={styles.item}>{itemTres}</li>
+                <li className={styles.item}>
+                    <Link to="/">Home</Link>
+                </li>
+                <li className={styles.item}>
+                    <Link to="/about">About</Link>
+                </li>
+                <li className={styles.item}>
+                    <Link to="/contact">Contact</Link>
+                </li>
             </ul>
         </nav>
     );
